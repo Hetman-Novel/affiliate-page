@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", function() {
     const wrapLazyLoadImage = document.querySelectorAll('.wrap-lazy-load-image')
-    wrapLazyLoadImage.forEach(imageWrapper => {
+    /*wrapLazyLoadImage.forEach(imageWrapper => {
         const image = imageWrapper.querySelector('img')
         if (image) {
             const spinner = document.createElement('span')
             spinner.className = 'sk-spinner-pulse'
             image.insertAdjacentElement('afterend', spinner)
         }
-    })
+    })*/
     
     const lazyLoadImages = document.querySelectorAll('.wrap-lazy-load-image img');
     lazyLoadImages.forEach(img => {
