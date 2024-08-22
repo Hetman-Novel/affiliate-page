@@ -430,7 +430,7 @@ a {
 .affiliate-page-fs__blockWave,
 .affiliate-page-fs__blockIndicators {
   pointer-events: none;
-  position: absolute;
+  position: absolute !important;
   right: 0;
   -webkit-user-select: none;
      -moz-user-select: none;
